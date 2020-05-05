@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.study</groupId>
+    <artifactId>springcloud-parent</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>service-order</module>
+        <module>service_remeber</module>
+        <module>springcloud-config</module>
+        <module>springcloud_gateway</module>
+        <module>springcloud_zuul</module>
+        <module>springcloud-consul-config</module>
+        <module>springcloud-sleuth</module>
+        <module>springcloud_consul</module>
+        <module>springcloud_eureka</module>
+        <module>springcloud_hystrix</module>
+    </modules>
+
+
+</project>

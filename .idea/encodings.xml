@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/service-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-order/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-order/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service_remeber" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service_remeber/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service_remeber/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-consul-config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-sleuth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud_consul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud_consul/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud_eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud_eureka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud_eureka/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud_gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud_gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud_gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud_hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud_hystrix/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud_hystrix/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud_zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud_zuul/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud_zuul/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

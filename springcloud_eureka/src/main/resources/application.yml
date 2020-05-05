@@ -1,0 +1,24 @@
+server:
+  port: 8088
+    # eureka
+eureka:
+   instance:
+     hostname: localhost
+   client:
+     fetch-registry: false
+     register-with-eureka: false
+     service-url: # map key-value
+       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+
+  # actuator 监控配置
+info:
+  personinfo_a:
+    name: chenzhenfei
+    email: 916927902@qq.com
+  personinfo_b:
+    age: 25
+    hobbies: running
+  build:
+    artifact: "@project.artifactId@"
+    name: "@project.name@"
+    version: "@project.version@"

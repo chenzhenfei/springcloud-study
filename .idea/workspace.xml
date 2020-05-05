@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b7b5ed8f-762e-4e7e-9eb1-6a4c5f21d637" name="Default" comment="增加spring boot 集成swagger 和 actuator 监控" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="chenzhenfei" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="MemberControllerTest.testGetMemberList" />
+    </enabled-run-configurations>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/devtools/apache-maven-3.5.4-bin (1)/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="E:\devtools\apache-maven-3.5.4-bin (1)\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bAb7tlxA17kKLQj7NZ7OhYBNPh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537264456646" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.study.serviceorder.controller" />
+      <recent name="com.study.serviceremeber.controller" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\source code\my\studyspringcloud-master\studyspringcloud-master" />
+      <recent name="D:\git_middleware\studyspringcloud-master\studyspringcloud-master\springcloud_gateway\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ServiceOrderApplication-8765">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CompoundRunConfigurationType">
+      <toRun name="ServiceOrderApplication" type="SpringBootApplicationConfigurationType" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GateWayApplication-8767" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud_gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.study.gateway.GateWayApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8767" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceOrderApplication-8764" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.study.serviceorder.ServiceOrderApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8764" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceOrderApplication-8765" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.study.serviceorder.ServiceOrderApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8765" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceRemeberApplication-8766" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-remeber" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.study.serviceremeber.ServiceRemeberApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8766" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringcloudConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.study.springcloudconfig.SpringcloudConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringcloudConsulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud_consul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springcloud_consul.SpringcloudConsulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringcloudConsulConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud-consul-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.study.springcloudconsulconfig.SpringcloudConsulConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringcloudEurekaApplication-8088" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="springcloud_eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.springcloud_eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.study.springcloud_eureka.SpringcloudEurekaApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8088" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringcloudHystrixApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud_hystrix" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.study.springcloud_hystrix.SpringcloudHystrixApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringcloudSleuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud-sleuth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.study.springcloudsleuth.SpringcloudSleuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringcloudZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud_zuul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.study.springcloud_zuul.SpringcloudZuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.SpringcloudHystrixApplication" />
+      <item itemvalue="Spring Boot.SpringcloudConsulApplication" />
+      <item itemvalue="Spring Boot.ServiceOrderApplication-8764" />
+      <item itemvalue="Spring Boot.ServiceOrderApplication-8765" />
+      <item itemvalue="Spring Boot.ServiceRemeberApplication-8766" />
+      <item itemvalue="Spring Boot.SpringcloudZuulApplication" />
+      <item itemvalue="Spring Boot.GateWayApplication-8767" />
+      <item itemvalue="Spring Boot.SpringcloudEurekaApplication-8088" />
+      <item itemvalue="Spring Boot.SpringcloudConsulConfigApplication" />
+      <item itemvalue="Spring Boot.SpringcloudConfigApplication" />
+      <item itemvalue="Spring Boot.SpringcloudSleuthApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SpringcloudEurekaApplication-8088" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.25108224" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\chenzhenfei\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b7b5ed8f-762e-4e7e-9eb1-6a4c5f21d637" name="Default" comment="" />
+      <created>1537115791176</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1537115791176</updated>
+      <workItem from="1537115792357" duration="59000" />
+      <workItem from="1537236507829" duration="8683000" />
+      <workItem from="1537252819166" duration="592000" />
+      <workItem from="1537253519576" duration="5868000" />
+      <workItem from="1537260269052" duration="4156000" />
+      <workItem from="1587541318749" duration="2166000" />
+      <workItem from="1587694668833" duration="3685000" />
+      <workItem from="1587714784193" duration="6637000" />
+      <workItem from="1587866244325" duration="1890000" />
+      <workItem from="1587881955467" duration="11764000" />
+      <workItem from="1587969481594" duration="599000" />
+      <workItem from="1588030127003" duration="10712000" />
+      <workItem from="1588058478512" duration="1295000" />
+      <workItem from="1588060081773" duration="5000" />
+      <workItem from="1588069022924" duration="2701000" />
+      <workItem from="1588077683926" duration="1092000" />
+      <workItem from="1588081201913" duration="7946000" />
+      <workItem from="1588174590409" duration="2932000" />
+      <workItem from="1588689225363" duration="6718000" />
+    </task>
+    <task id="LOCAL-00001" summary="增加spring boot 集成swagger 和 actuator 监控">
+      <created>1537259296142</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1537259296142</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="增加spring boot 集成swagger 和 actuator 监控" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加spring boot 集成swagger 和 actuator 监控" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="182" key="#Project_Structure" timestamp="1588694923706">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="182" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1588694923706" />
+    <state x="536" y="153" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588082012072">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="536" y="153" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588082012072" />
+    <state x="811" y="412" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1588694136642">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="811" y="412" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588694136642" />
+    <state x="440" y="274" key="FileChooserDialogImpl" timestamp="1588081572052">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588081572052" />
+    <state width="1383" height="378" key="GridCell.Tab.0.bottom" timestamp="1588695139239">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1383" height="378" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588695139239" />
+    <state width="1383" height="378" key="GridCell.Tab.0.center" timestamp="1588695139239">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1383" height="378" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588695139239" />
+    <state width="1383" height="378" key="GridCell.Tab.0.left" timestamp="1588695139239">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1383" height="378" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588695139239" />
+    <state width="1383" height="378" key="GridCell.Tab.0.right" timestamp="1588695139239">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1383" height="378" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588695139239" />
+    <state width="1383" height="378" key="GridCell.Tab.1.bottom" timestamp="1588695139239">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1383" height="378" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588695139239" />
+    <state width="1383" height="378" key="GridCell.Tab.1.center" timestamp="1588695139239">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1383" height="378" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588695139239" />
+    <state width="1383" height="378" key="GridCell.Tab.1.left" timestamp="1588695139239">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1383" height="378" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588695139239" />
+    <state width="1383" height="378" key="GridCell.Tab.1.right" timestamp="1588695139239">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1383" height="378" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588695139239" />
+    <state width="1446" height="307" key="GridCell.Tab.2.bottom" timestamp="1588090293489">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1446" height="307" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588090293489" />
+    <state width="1446" height="307" key="GridCell.Tab.2.center" timestamp="1588090293489">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1446" height="307" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588090293489" />
+    <state width="1446" height="307" key="GridCell.Tab.2.left" timestamp="1588090293489">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1446" height="307" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588090293489" />
+    <state width="1446" height="307" key="GridCell.Tab.2.right" timestamp="1588090293489">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1446" height="307" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588090293489" />
+    <state x="463" y="165" key="SettingsEditor" timestamp="1588174881524">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588174881524" />
+    <state x="647" y="275" width="759" height="548" key="find.popup" timestamp="1588694654109">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="647" y="275" width="759" height="548" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588694654109" />
+    <state x="334" y="228" key="new project wizard" timestamp="1588694940135">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="228" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1588694940135" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service_remeber/src/main/java/com/study/serviceremeber/controller/MemberController.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service_remeber/src/main/java/com/study/serviceremeber/controller/MemberController.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

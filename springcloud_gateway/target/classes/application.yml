@@ -1,0 +1,43 @@
+server:
+  port: 8766
+spring:
+  application:
+    name: service-gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: false # 是否将服务id转换为小写
+      routes:
+        - id: order-service
+          uri: lb://service-order
+          predicates:
+            - Path=/order/**
+        - id: member-service
+          uri:  lb://service-member
+          predicates:
+            - Path=/member/**
+
+#my-load-balanced-service:
+#  ribbon:
+#    listOfServers: localhost:1001, localhost:1002,localhost:1003
+#    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RoundRobinRule
+
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:8088/eureka/
+
+info:
+  personinfo_a:
+    name: chenzhenfei
+    email: 916927902@qq.com
+  personinfo_b:
+    age: 25
+    hobbies: running
+  build:
+    artifact: "springcloud_gateway"
+    name: "springcloud_gateway"
+    version: "1.0-SNAPSHOT"
+# actuator 端点监控管理 可以根据 http://loacalhost:port/routes 查看路由映射
